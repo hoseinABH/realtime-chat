@@ -67,7 +67,7 @@ const AddFriendButton: FC<Props> = (props) => {
       </div>
       <p className="mt-1 text-sm text-red-600">{errors.email?.message}</p>
       {isSuccessful ? (
-        <p className="mt-1 text-sm text-green-600">Friend request sent! </p>
+        <p className="mt-1 text-sm text-green-600">Friend request sent!</p>
       ) : null}
     </form>
   );
