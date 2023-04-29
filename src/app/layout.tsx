@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'RTC',
-  description: 'real time chat application',
+  description: 'Real time chat application',
 };
 
 export default function RootLayout({
